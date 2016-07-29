@@ -54,13 +54,13 @@ gulp.task("resources", () => {
 gulp.task("libs", () => {
     var outDir = tsProject.options.outDir;
     return gulp.src([
-            'es6-shim/es6-shim.min.js',
+            /*'es6-shim/es6-shim.min.js',
             'systemjs/dist/system-polyfills.js',
             'systemjs/dist/system.src.js',
             'reflect-metadata/Reflect.js',
             'rxjs/**',
             'zone.js/dist/**',
-            '@angular/**'
+            '@angular/**'*/
         ], {cwd: "node_modules/**"}) /* Glob required here. */
         .pipe(gulp.dest(outDir + "/lib"));
 });
