@@ -1,0 +1,13 @@
+.window {
+	border: 2px solid grey;
+	padding: 5px;
+}
+
+.title {
+	padding: 10px;
+	background: red;
+}
+
+.content {
+	padding: 10px;
+}
