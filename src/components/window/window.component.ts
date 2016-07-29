@@ -9,7 +9,7 @@ import {Component} from 'angular2/core';
 	moduleId: __moduleName,  // fully resolved filename; defined at module load time
     selector: 'window',
     templateUrl: 'window.template.html',
-    styleUrls: ['theme1.css']
+    styleUrls: ['themes/theme1.css']
 })
 
 export class WindowComponent {

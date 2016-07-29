@@ -3,7 +3,7 @@ import {WindowComponent} from 'dist/components/window/window.component';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'source/app.html',
+    templateUrl: 'src/app.html',
     directives: [WindowComponent]
 })
 
